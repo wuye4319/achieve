@@ -1,0 +1,92 @@
+{
+	"pages": [{
+			"path": "pages/calendar/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "日程",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/setting/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/sign/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "打卡",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/todolist/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "收集箱",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "优惠多",
+		"navigationBarBackgroundColor": "#51ceff",
+		"backgroundColor": "#51ceff"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#FC3F78",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/todolist/index",
+				"iconPath": "static/img/footer/type.png",
+				"selectedIconPath": "static/img/footer/type-act.png",
+				"text": "收集箱"
+			},
+			{
+				"pagePath": "pages/calendar/index",
+				"iconPath": "static/img/footer/home.png",
+				"selectedIconPath": "static/img/footer/home-act.png",
+				"text": "日程"
+			},
+			{
+				"pagePath": "pages/sign/index",
+				"iconPath": "static/img/footer/jiu.png",
+				"selectedIconPath": "static/img/footer/jiu-act.png",
+				"text": "打卡"
+			},
+			{
+				"pagePath": "pages/setting/index",
+				"iconPath": "static/img/footer/my.png",
+				"selectedIconPath": "static/img/footer/my-act.png",
+				"text": "设置"
+			}
+		]
+	}
+}
